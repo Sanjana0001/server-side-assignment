@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Formatting Tags</title>
+  <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      color: black;
+      text-align: center;
+    }
+    td.column {
+      color: black;
+      font-family: Arial, sans-serif;
+    }
+    .blue {
+      color: blue;
+    }
+    .big {
+      font-size: larger;
+    }
+    .small {
+      font-size: smaller;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+    .sub {
+      vertical-align: sub;
+    }
+    .sup {
+      vertical-align: super;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: red; text-align: center;">Text Formatting Tags</h1>
+  <table>
+    <tr>
+      <th>HTML Tag</th>
+      <th>Output</th>
+    </tr>
+    <tr>
+      <td class="column">normal</td>
+      <td>hello world</td>
+    </tr>
+    <tr>
+      <td class="column"><font color="blue" size="5">Font & its attributes</font></td>
+      <td><span class="blue big">hello world</span></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;B&gt;</td>
+      <td><b>Bold</b></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;I&gt;</td>
+      <td><i>Italic</i></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;U&gt;</td>
+      <td><u>Underline</u></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;EM&gt;</td>
+      <td><em>Emphasis</em></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;STRONG&gt;</td>
+      <td><strong>STRONG</strong></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;TELETYPE&gt;</td>
+      <td><tt>TELETYPE</tt></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;CITE&gt;</td>
+      <td><cite>Citation</cite></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;STRIKE&gt;</td>
+      <td><span class="strike">strike through text</span></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;BIG&gt;</td>
+      <td><span class="big">text in a big font</span></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;SMALL&gt;</td>
+      <td><span class="small">text in a small font</span></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;SUP&gt;</td>
+      <td>a<sup class="sup">b</sup></td>
+    </tr>
+    <tr>
+      <td class="column">&lt;SUB&gt;</td>
+      <td>a<sub class="sub">b</sub></td>
+    </tr>
+  </table>
+</body>
+</html>
